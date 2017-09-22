@@ -6,14 +6,16 @@ In this chapter, some basic concepts and important knowledge are provided. These
 
 Planetary gearing or epicyclic gearing is a gear system typically consisting of four parts: sun gear, planet gear, ring gear and the planet carrier.
 
-There are several ways of input-output method such as stationary ring gear, fixed carrier or no stationary part. The gear ratio of the of the planetary gearbox could be calculated as:
+There are several ways of input-output method such as stationary ring gear, fixed carrier or no stationary part. The gear ratio of the planetary gearbox could be calculated as:
 
 \begin{equation}
-	N_s\omega_s + N_r\omega_r - (N_s + N_r)\omega_c
+	N_s\omega_s + N_p\omega_p - (N_s + N_p)\omega_c = 0
+\end{equation}
+\begin{equation}
+	N_r\omega_r - N_p\omega_p - (N_r - N_p)\omega_c = 0
 \end{equation}
 
 The following figure shows a typical planetary gearing system, which contains 3 planet gears.
-
 
 \begin{figure}
 	\centering
@@ -60,9 +62,17 @@ Variation from the mean could give rise to side bands of harmonics and maybe cau
 
 Due to limitation of time and resource, the main fault investigated in this project is Local fault, including tooth spalls and root cracks.
 
-1)	Normal operation
+Comparing to fixed-axis gearbox, in which each gear rotates around a fixed center, planetary gearboxe has planet gears which rotate around not only their own centers but also the center of sun gear. The transmission structure of planetary gearbox bring unique behaviors. \cite{review}
 
-2)	Fault, spalls and cracks
+1) The planet gears are meshing simultaneously with sun gear and the ring gear. Part of the vibrations exited by different component and their different meshing phases could be neutralized or cancelled by eath other.
+
+2) The multiple vibration transmission paths are time-varing and load effected in planetary gearbox.It could attenuate the vibration signal of defective part and weaken the fault characteristics.
+
+3) Differ from fixed-axis gear box, side bands apears in spectrum for both healthy and faulty planetary gearboxes and asymmetric about the tooth-mesh frequency. It may caused by multiple planet gears meshing with different phases.
+
+4) Vibrations of low speed faulty components are easily masked and difficult to discover.
+
+
 
 \subsection{Diagnosis techniques}
 
