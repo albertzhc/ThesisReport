@@ -1,0 +1,102 @@
+\documentclass[]{unswthesis}
+
+%%% Class options:
+
+%  undergrad (default)
+%  hdr
+
+%  11pt (default)
+%  12pt
+
+%  final (default)
+%  draft
+
+%  oneside (default for hdr)
+%  twoside (default for undergrad)
+
+
+%% Thesis details
+\thesistitle{Vibration Diagnosis of Planetary Gearbox under Variable Speed Condition }
+\thesisschool{School of Mechanical and Manufacturing Engineering}
+\thesisschool{School of Mechanical and Manufacturing Engineering}
+\thesisauthor{Hengcheng Zhang}
+\thesisZid{z5130844}
+%\thesistopic{XX00}  % for undergrad theses only
+\thesisdegree{Master of Engineering in Mechanical Engineering}
+%\thesisdegree{Doctor of Philosophy}
+\thesisdate{October 2017}
+\thesissupervisor{A/Prof.Z.Peng Dr.W.Smith}% for undergrad theses only
+
+
+%% My own LaTeX macros, definitions, etc
+\include{definitions}
+
+
+\begin{document}
+
+%% pages in the ``frontmatter'' section have roman numeral page number
+\frontmatter  
+\maketitle
+
+\include{abstract}
+\include{acknowledgements}
+\include{abbreviations}
+
+\tableofcontents
+\listoffigures  % if required
+\listoftables  % if required
+
+%% pages in the ``mainmatter'' section have arabic page numbers and chapters are numbered
+\mainmatter
+
+\include{intro}
+\include{literature}
+\include{methodology}
+\include{results}
+\include{conclusion}
+
+
+%% chapters in the ``backmatter'' section do not have chapter numbering
+%% text in the ``backmatter'' is single spaced
+\backmatter
+\bibliographystyle{alpha}
+\bibliography{pubs}
+\begin{thebibliography}{99}
+ \bibitem{pa} H.~Partl:\emph{German \TeX},TUGboat Volume~9, Issue~1 (1988)
+ 
+ \bibitem{gearbox} National Research Council, \textit{Cost, Effectiveness, and Deployment of Fuel Economy Technologies for Light-Duty Vehicles},(2015)
+ 
+ \bibitem{vbcm} Robert Bond Randall,\textit{Vibration-based Condition Monitoring - Industrial, Aerospace and Automotive Applications}, (2011) 
+ 
+ \bibitem{review} Yaguo Lei, Jing Lin,\textit{ Condition monitoring and fault diagnosis of planetary gearboxes: A review}, Measurement, vol. 48, Feb. 2014
+  
+ \bibitem{McFadden} P.D.McFadden, I.M.Howard, \textit{The detection of seeded faults in an epicyclic gearbox by signal averaging the vibration}, Aeronautical Research Labs Melbourne, 1990
+ 
+ \bibitem{Endo}  Endo, H. Randall, R.B. \textit{Differential diagnosis of spalls vs. cracks in the gear tooth fillet region} Journal of Failure Analysis and Prevention, 4(5), 57-65
+ 
+ \bibitem{practical}  K. Ding, \textit{Practical Fault Diagnosis Techniques for Gears and Gearboxes }, 2005
+
+ \bibitem{trending}  W. S. Siew, W. A. Smith, Z. Peng, and R. B. Randall, \textit{Fault Severity Trending In Rolling Element Bearings}, presented at the Acoustics 2015 Hunter Valley, 2015.
+ 
+ \bibitem{stewart}  R.M.Stewart, \textit{Some useful data analysis techniques for gearbox diagnostics}, Proceedings of the Meeting on the Applications of Time series Analysis, ISVR, University of Southampton
+ 
+ \bibitem{mc2} P.D.McFadden,\textit{A technique for calculating the time domain averages of the vibration fo the individual planet gears and the sun gear in an epicyclic gearbox}, Journal of Sound and Vibration,144(1), 163-172.
+
+ \bibitem{chen} Kexing Chen, \textit{Mechine Condition Monitoring and Fault Diagnosis Technology}, Beijing Science and Technology Press, 1991
+ 
+ \bibitem{mc3} P.D.McFadden,\textit{Windo functions for the calculation of the time domain averages of the vibration of the individual planet gears and sun gear in an epicyclic gearbox}, ASME Transactions Journal of Vibration, Acoustics,\textbf{116} 179-187.
+ 
+ \bibitem{mc4} P.D.McFadden,\textit{Detecting fatigue cracks in gears by amplitude and phase demodulation of the meshing vibration}, ASME Transactions Journal of Vibration, Acoustics, Stress and Reliability in Design \textbf{108}, 165-170.
+   
+ \bibitem{varyspeed} R.Randall, M.Coats, W.Smith \textit{Gear diagnostics under widely varying speed conditons}, School of Mechanical and Manufacturing Engineering, University of New South Wales, Australia
+ 
+ \bibitem{mel1} G.Meltzer, Y.Y. Ivanov \textit{Fault detection in gear drives with non-stationary rotational speed - Part I: The time-frequency approach}, Mechanical Systems and Signal Processing 17 (5) (2003) 1033-1047
+ 
+  \bibitem{mel2} G.Meltzer, Y.Y. Ivanov \textit{Fault detection in gear drives with non-stationary rotational speed - Part II: The time-frequency approach}, Mechanical Systems and Signal Processing 17 (2) (2003) 273-283
+  
+\end{thebibliography}
+
+\include{appendix1}
+\include{appendix2}
+
+\end{document}
