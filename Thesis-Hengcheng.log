@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.9.29)  29 SEP 2017 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.10.2)  2 OCT 2017 18:20
 entering extended mode
 **./Thesis-Hengcheng.tex
 (Thesis-Hengcheng.tex
@@ -292,14 +292,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-] (Thesis-Hengcheng.toc)
+] (Thesis-Hengcheng.toc [5
+
+
+])
 \tf@toc=\write5
 \openout5 = `Thesis-Hengcheng.toc'.
 
- [5
-
-
-] [6]
+ [6]
 (Thesis-Hengcheng.lof)
 \tf@lof=\write6
 \openout6 = `Thesis-Hengcheng.lof'.
@@ -340,28 +340,28 @@ Package pdftex.def Info: PGB.jpg used on input line 22.
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
  [3 <./PGB.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
  [4]
-Underfull \vbox (badness 4634) has occurred while \output is active []
+Underfull \vbox (badness 2197) has occurred while \output is active []
 
  [5]
 [6] [7] <TSA.png, id=103, 325.215pt x 171.64125pt>
 File: TSA.png Graphic file (type png)
  <use TSA.png>
-Package pdftex.def Info: TSA.png used on input line 120.
+Package pdftex.def Info: TSA.png used on input line 122.
 (pdftex.def)             Requested size: 325.2142pt x 171.64081pt.
  [8 <./TSA.png>] <demodulation.png, id=109, 431.36156pt x 300.3722pt>
 File: demodulation.png Graphic file (type png)
  <use demodulation.png>
-Package pdftex.def Info: demodulation.png used on input line 136.
+Package pdftex.def Info: demodulation.png used on input line 138.
 (pdftex.def)             Requested size: 431.3605pt x 300.37144pt.
 
-Overfull \hbox (18.79553pt too wide) in paragraph at lines 136--137
+Overfull \hbox (18.79553pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
@@ -370,16 +370,41 @@ Overfull \hbox (18.79553pt too wide) in paragraph at lines 136--137
 
  (methodology.tex
 Chapter 3.
-) [11
+[11
 
 
 
-]
+] <rig.png, id=121, 419.31656pt x 148.30406pt>
+File: rig.png Graphic file (type png)
+ <use rig.png>
+Package pdftex.def Info: rig.png used on input line 16.
+(pdftex.def)             Requested size: 419.31552pt x 148.30368pt.
+
+Overfull \hbox (6.75055pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+<gearbox.png, id=122, 399.74344pt x 234.8775pt>
+File: gearbox.png Graphic file (type png)
+ <use gearbox.png>
+Package pdftex.def Info: gearbox.png used on input line 29.
+(pdftex.def)             Requested size: 399.74245pt x 234.87692pt.
+ [12 <./rig.png>] <control.png, id=127, 435.12563pt x 247.67531pt>
+File: control.png Graphic file (type png)
+ <use control.png>
+Package pdftex.def Info: control.png used on input line 40.
+(pdftex.def)             Requested size: 435.12456pt x 247.6747pt.
+
+Overfull \hbox (22.55959pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+) [13 <./gearbox.png>] [14 <./control.png>]
 \openout2 = `results.aux'.
 
  (results.tex
 Chapter 4.
-) [12
+) [15
 
 
 
@@ -388,7 +413,7 @@ Chapter 4.
 
  (conclusion.tex
 Chapter 5.
-) [13
+) [16
 
 
 
@@ -400,20 +425,20 @@ Underfull \hbox (badness 5878) in paragraph at lines 69--70
 n-di-tion Mon-i-tor-ing - In-dus-trial,
  []
 
-[14
+[17
 
 
 
-] [15]
+] [18]
 \openout2 = `appendix1.aux'.
 
- (appendix1.tex) [16
+ (appendix1.tex) [19
 
 
 ]
 \openout2 = `appendix2.aux'.
 
- (appendix2.tex) [17
+ (appendix2.tex) [20
 
 
 
@@ -422,13 +447,13 @@ n-di-tion Mon-i-tor-ing - In-dus-trial,
 (literature.aux) (methodology.aux) (results.aux) (conclusion.aux)
 (appendix1.aux) (appendix2.aux)) ) 
 Here is how much of TeX's memory you used:
- 2519 strings out of 493334
- 35491 string characters out of 3139243
- 110567 words of memory out of 3000000
- 5927 multiletter control sequences out of 15000+200000
+ 2538 strings out of 493334
+ 35734 string characters out of 3139243
+ 110604 words of memory out of 3000000
+ 5943 multiletter control sequences out of 15000+200000
  17165 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,13n,45p,1110b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,13n,45p,1110b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/
 fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -442,9 +467,9 @@ nts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Thesis-Hengcheng.pdf (25 pages, 414901 bytes).
+Output written on Thesis-Hengcheng.pdf (28 pages, 1200288 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
