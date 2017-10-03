@@ -11,18 +11,21 @@
 \contentsline {subsubsection}{Time-frequency-domain Methods}{10}
 \contentsline {subsubsection}{Other Methods}{10}
 \contentsline {section}{\numberline {2.3}Variable Speed}{10}
-\contentsline {chapter}{\numberline {3}Methodology}{11}
-\contentsline {section}{\numberline {3.1}Equipment}{11}
-\contentsline {subsection}{\numberline {3.1.1}Planetary Gearbox Test Rig}{11}
-\contentsline {subsection}{\numberline {3.1.2}Data Acquisition System}{13}
-\contentsline {section}{\numberline {3.2}Test Setting}{13}
-\contentsline {section}{\numberline {3.3}Processing and Analysis}{13}
-\contentsline {chapter}{\numberline {4}Results and Discussion}{15}
-\contentsline {section}{\numberline {4.1}Results}{15}
-\contentsline {section}{\numberline {4.2}Discussion}{15}
-\contentsline {chapter}{\numberline {5}Conclusion}{16}
-\contentsline {section}{\numberline {5.1}Future Work}{16}
-\contentsline {chapter}{Bibliography}{17}
-\contentsline {chapter}{Appendix 1}{19}
-\contentsline {chapter}{Appendix 2}{20}
-\contentsline {section}{\numberline {B.1}Data}{20}
+\contentsline {subsection}{\numberline {2.3.1}Cepstrum-Resonance Compensation}{11}
+\contentsline {subsection}{\numberline {2.3.2}Ordertracking and TSA}{11}
+\contentsline {section}{\numberline {2.4}Summary}{12}
+\contentsline {chapter}{\numberline {3}Methodology}{13}
+\contentsline {section}{\numberline {3.1}Equipment}{13}
+\contentsline {subsection}{\numberline {3.1.1}Planetary Gearbox Test Rig}{13}
+\contentsline {subsection}{\numberline {3.1.2}Data Acquisition System}{15}
+\contentsline {section}{\numberline {3.2}Test Setting}{15}
+\contentsline {section}{\numberline {3.3}Processing and Analysis}{15}
+\contentsline {chapter}{\numberline {4}Results and Discussion}{17}
+\contentsline {section}{\numberline {4.1}Results}{17}
+\contentsline {section}{\numberline {4.2}Discussion}{17}
+\contentsline {chapter}{\numberline {5}Conclusion}{18}
+\contentsline {section}{\numberline {5.1}Future Work}{18}
+\contentsline {chapter}{Bibliography}{19}
+\contentsline {chapter}{Appendix 1}{21}
+\contentsline {chapter}{Appendix 2}{22}
+\contentsline {section}{\numberline {B.1}Data}{22}

@@ -108,7 +108,7 @@ Scaled indicators not only depend on the condition of the machine but also its r
 
 \subsubsection{Time Synchronous Averaging}
 
-TSA (Time synchronous averaging) is also atime domain signal processing method other than statistical indicators. It is implemented by averaging several segments of synchronousing signals together to extract the periodic signal from the backgound noises. It is calculated by:
+TSA (Time synchronous averaging) is also a time domain signal processing method other than statistical indicators. It is implemented by averaging several segments of synchronousing signals together to extract the periodic signal from the backgound noises. It is calculated by:
 \begin{equation}
 	y_{a}(t) = \frac{1}{N}\sum_{n=0}^{N-1} y(t+nT)
 \end{equation}
@@ -160,7 +160,33 @@ Some other effective methods exist in this area, for example modeling method and
 
 \section{Variable Speed}
 
-Most of the methods mentioned in the former part are developed for constant speed and load conditions. When there are minor speed fluctuations, performing of order tracking would eliminate this effect. But when it comes to wider speed range, as much as $\pm$ 30 percent. Besides frequency modulation, amplitude modulation caused by passage of resonances, frequency response function and variation of torque due to speed comes into consideration. These effects can not be compensated by order tracking. Residual signal of TSA under these conditions would include much of the amplitude variation of the deterministic part as well as the random noise. \cite{varyspeed}
+Most of the methods mentioned in the former part are developed for constant speed and load conditions. When there are minor speed fluctuations, performing of order tracking would eliminate this effect. But when it comes to wider speed range, as much as $\pm$ 30 percent, besides frequency modulation, amplitude modulation caused by passage of resonances, frequency response function and variation of torque comes into consideration. These effects could not be compensated by order tracking. Then the residual signal of TSA under these conditions would include much of the amplitude variation of the deterministic part as well as the random noise. \cite{varyspeed} One possible method is to find sections with relatively steady speed. R.Randall \cite{varyspeed} surgested another way to perform pre-processing of cepstrum modification to compensate the resonance part before order tracking and TSA.
+
+\subsection{Cepstrum-Resonance Compensation}
+
+The cepstrum is obtained by inverse Fourier transform of the log spectrum. If the log spectrum includes phase part, it is complex cepstrum. If the log spectrum only has amplitude, then it is real or power cepstrum. The logarithmic conversion of the spectrum transform the multiplication relationship between the forcing function and transfer function into an additive one.\cite{vbcm} It is also more evident to see the families of harmonics and sidebands in the log spectrum. Due to these characteristics, cepstrum analysis is able to be applied for collecting uniformly spaced sidebands and separating forcing functions from transfer functions.
+
+In the variable speed gearbox diagnosis application, cepstrum is utilized to perform resonance compensation. Randall indicated in \cite{resonance} that low-quefrency region of the cepstrum is contributed by both excitation and transfer function, while the high -quefrency region is domainated by forcing function. So it is able to use liftering in cepstrum to remove the forcing function part, or on the contrary remove the transfer function component. In \cite{varyspeed}, modal information is obtained by applying exponential window  to lifter the cepstrum. Removing the modal part in cepstrum and transfer back to spectrum and further to time domain, it should be able to seen a more uniform waveform. This means the amplitude variation due to passing resonances is compensated.
+
+\subsection{Ordertracking and TSA}
+
+Followed by the pre-processing of resonance compensation, 'order tracking' and TSA is now able to be performed. These two method have already been discussed in chapter 2.2.3. Cepstrum modification removed the amplitude modulation caused by resonance. The next step is to deal with the phase modulation caused by varying speed. 'Order tracking' is a phase demodulation technique based on a reference phase-locked signal. It resample the constant time interval signal to a constant phase increment signal. 'Order tracking' is used to avoid smearing of frequency component in its spectrem. Only after the application of order tracking, it is able to perform TSA.
+
+As discussed in the former part, TSA is averaging together many signal segments corresponding to same period of synchronising signal. It is always performed for one or two rotation of the shaft. The averaged signal, as seen in Figure 2.2 and 2.3 would illustrate the fault in gears. A further investigation could be performed on the TSA or its residual signal. For example, the McFadden method perform a more complicated TSA and check the Kurtosis of the residual signal. The Hilbert transform technique could be performed to examine the amplitude and phase modulation signal as shown in Figure 2.3.
+
+\section{Summary}
+
+By reviewing of the literatures above, it is aknowledged that vibration analysis of gearboxes has been widely researched. Planty of methods and techniques have been developed in this area. But most of these techniques are focused on fix axis gearboxes and constant speed conditions. Most of these methods fail to work for planetary gearboxes in varying speed conditions, which would be much more universal and widely performed. The complexity of planetary gearbox and amplitude modulation due to speed passing resonance bring a lot of challenge to this task. The suggested process is:
+
+\begin{enumerate}
+	\item Perform cepstrum modification for resonance compensation;
+	
+	\item Order tracking to compensate the speed variation;
+	
+	\item TSA to investigate the fault.
+	
+\end{enumerate}
+
 
 
 
