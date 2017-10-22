@@ -1,13 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Planetary gearbox layout \cite {gearbox}}}{3}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Time synchronous averaged signals \cite {chen}}}{8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Demodulation of the second harmonic of the gearmesh frequency for a cracked gear \cite {mc4}}}{9}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Planetary gearbox layout \cite {gearbox}}}{4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Time synchronous averaged signals \cite {chen}}}{9}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Demodulation of the second harmonic of the gearmesh frequency for a cracked gear \cite {mc4}}}{10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces UNSW planetary gearbox test rig}}{14}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The planetary gearbox}}{15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The test rig control panel}}{16}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces UNSW planetary gearbox test rig}}{15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The planetary gearbox}}{16}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The control panel of the test rig}}{16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The data acquisition system}}{17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Speed-up profile}}{18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Test 2 speed profile}}{19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Test 3 speed profile}}{20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Vibration waveform of different period}}{21}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Liftered vibration waveform of different period}}{22}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cepstrum before and after exponential liftering}}{24}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Spectrum before and after substraction of modal information}}{24}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Spectrum after Hilbert transform}}{26}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Waveform of 5s to 15s before and after cepstrum modification}}{26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

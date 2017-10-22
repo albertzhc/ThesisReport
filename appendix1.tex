@@ -1,6 +1,124 @@
 \chapter{Appendix 1}\label{app1}
 
-This section contains the options for the UNSW thesis class; and
-layout specifications used by this thesis.
+\begin{lstlisting}[language=Matlab,
+	keywordstyle=\color{blue!70},
+	commentstyle=\color{red!50!green!50!blue!50}]
+
+clear all
+close all
+clc
+
+load('4_24Hz_0_load_spall_1_a.mat')
+
+vib=Track2; %read external data
+tac=Track3; %read tacho data
+fs=51200;   %sample rate
+
+T=2;   %sample time
+st =13; %start time
+N=fs*T; %number of processed data
+% N = length(vib);
+t=(st*fs:st*fs+N-1)/fs;   %time domain
+f=(0:N-1)*fs/N; %frequency domain
+vib=vib((st*fs+1):(st*fs+N));
+tac=tac((st*fs+1):(st*fs+N));
+
+%find the peaks and their locations
+[pk,tpk] = findpeaks(tac,t,'MinPeakProminence',1);
+%The average shaft speed
+fr = 1/((tpk(length(pk))-tpk(1))/(length(pk)-1));
+
+figure()
+plot(t,vib);
+xlabel('Time (s)')
+ylabel('Amplitued')
+title('(1) External vibration signal')
+figure()
+plot(t,tac);title('Tacho signal')
+
+%% cepstrum liftering
+[r_modal,r_discrete] = Exponential_liftering(vib',8*pi,fs);
+
+%% Apply order tracking to raw signal
+fs1=20160; 
+[x1,RsmpGridin1,Pulsein,M1in,Rin]=
+OrderTrack(tac,r_discrete,55/42,max(tac)/4,fs1,'1'); 
+[x2,RsmpGridin2,Pulsein2,M1in2,Rin2]=
+OrderTrack(tac,tac,55/42,max(tac)/4,fs1,'1');  
+
+N1=length(x1);
+t1=(0:N1-1)/fs1;
+f1=(0:N1-1)*fs1/N1;
+
+figure()
+plot(t1,x1);
+xlim([0,max(t1)])
+title('Ordertracked vibrationsignal')
+
+figure()
+plot(t1,x2);
+xlim([0,max(t1)])
+title('Ordertracked tacho signal')
+
+%% planetary gear speed calculation
+Ns = 34;
+Np = 23;
+Nr = 80;
+
+%The average shaft speed of pinion gear
+fcarrier = 1;
+fsun = fcarrier*(Ns+Nr)/Ns;
+fplanet = fcarrier*(Np-Nr)/Np;
+
+%% Hilbert transform
+
+hx=abs(hilbert(x1));
+Hx=abs(1/N1*fft(hx));
+figure()
+plot(t1,hx)
+
+figure()
+plot(f1,Hx);xlim([0.2,90]);
+xlabel('Frequency (Hz)')
+ylabel('Amplitude')
+title('Hilbert transform demodulation')
+
+%% Teager energy operator
+
+y=TKEO(x1);
+N2=length(y);
+t2=(0:N2-1)/fs1;
+f2=(0:N2-1)*fs1/N2;
+
+Y=abs(fft(y));
+
+figure()
+plot(f2,Y);xlim([0.2,90]);
+title('Teager energy')
+
+%% TSA
+fc = 1;
+Ntsa = fs1/fc;
+mm=fix(N1/Ntsa);
+
+m1=1;
+m2= Ntsa;
+xtsa = zeros(1,Ntsa);
+for r=1:mm
+xm = x1(m1:m2);
+xtsa=xtsa+xm;
+m1 = m1+Ntsa;
+m2 = m2+Ntsa;
+end
+to = linspace(0,1,Ntsa);
+xtsa = xtsa/mm;
+figure()
+plot(to,xtsa)
+%residual
+xres = x1(1:Ntsa)-xtsa;
+figure()
+plot(to,xres)
+
+\end{lstlisting}
 
 
