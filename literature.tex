@@ -1,6 +1,6 @@
 \chapter{Literature Review}\label{ch:literature}
 
-In this chapter, some basic concepts and important knowledge are provided. These concepts are 
+In this chapter, some basic concepts and important knowledge involved in this thesis are provided. The structure and characteristics are presented. Established methods for gear fault diagnosis are discussed. Research and application on planetary gearbox and varying speed are studied. Finally, the previous findings in this area are concluded and a new method for large range varying speed condition is provided. 
 
 \section{Planetary Gearbox}
 
@@ -151,12 +151,16 @@ Where $X(f)$ is the spectrum signal.
 
 \subsubsection{Time-frequency-domain methods}
 
-Time-frequency domain methods is a combination of time and frequency domains in one plot. Methods such as Wigner-Ville distribution and wavelets analysis are studied recently as another choice in vibration diagnostics. Meltzer \textit{et al.} \cite{mel1} \cite{mel2} conducted this method on an automobile planetary gearbox.
+Time-frequency domain methods is a combination of time and frequency domains in one plot. A basic approach is short time Fourier transform (STFT). It is to extract a short period of waveform and transfer it into frequency domain, then combine all the spectrums in time domain. The frequency and time axis resolution are determined by the length of the extracted signal. The longer the extracted signal is, the higher the frequency resolution will be. On the other hand, the time resolution will decrease. The overlapping approach is proposed to solve this contradiction. It is to make the neighboring signal period overlap with each other to get longer signal as well as higher time resolution.
+
+The STFT method and time-frequency spectrogram could be used to track frequency change over time. It usually represent the speed variation or other changes in time. Methods such as Wigner-Ville distribution and wavelets analysis are studied recently as another choice in vibration diagnostics. Meltzer \textit{et al.} \cite{mel1} \cite{mel2} conducted this method on an automobile planetary gearbox.
 
 
 \section{Fault Diagnosis under Variable Speed Condtions}
 
 Most of the methods mentioned in the former part are developed for constant speed and load conditions. When there are minor speed fluctuations, performing of order tracking would eliminate this effect. But when it comes to wider speed range, as much as $\pm$ 30 percent, besides frequency modulation, amplitude modulation caused by the passage of resonances, frequency response function and variation of torque comes into consideration. These effects could not be compensated by order tracking. Then the residual signal of TSA under these conditions would include much of the amplitude variation of the deterministic part as well as the random noise \cite{varyspeed}. One possible method is to find sections with relatively steady speed. Randall \cite{varyspeed} suggested another way to perform pre-processing of cepstrum modification to compensate the resonance part before order tracking and TSA.
+
+As stated in the former part, order tracking requires a tacho signal as reference to resample the original waveform. 
 
 \subsection{Cepstrum resonance compensation}
 

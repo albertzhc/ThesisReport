@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.10.22)  22 OCT 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2018.5.11)  11 MAY 2018 22:10
 entering extended mode
 **./Thesis-Hengcheng.tex
 (Thesis-Hengcheng.tex
@@ -7,20 +7,17 @@ Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (unswthesis.cls
 Document Class: unswthesis 2015/04/30 v2.0.1 Faculty of Engineering, University
  of NSW Thesis Class
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip41
-\f@nch@O@elh=\skip42
-\f@nch@O@erh=\skip43
-\f@nch@O@olh=\skip44
-\f@nch@O@orh=\skip45
-\f@nch@O@elf=\skip46
-\f@nch@O@erf=\skip47
-\f@nch@O@olf=\skip48
-\f@nch@O@orf=\skip49
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(fancyhdr.sty
+\fancy@headwidth=\skip41
+\f@ncyO@elh=\skip42
+\f@ncyO@erh=\skip43
+\f@ncyO@olh=\skip44
+\f@ncyO@orh=\skip45
+\f@ncyO@elf=\skip46
+\f@ncyO@erf=\skip47
+\f@ncyO@olf=\skip48
+\f@ncyO@orf=\skip49
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
@@ -41,19 +38,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count79
-))
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\units\units.sty
-Package: units 1998/08/04 v0.9b Typesetting units
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\units\nicefrac.sty
-Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip50
-\L@UnitsRaiseTextstyle=\skip51
-\L@UnitsRaiseScriptstyle=\skip52
-))
+)) (units.sty)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
@@ -68,11 +53,10 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \c@subparagraph=\count86
 \c@figure=\count87
 \c@table=\count88
-\abovecaptionskip=\skip53
-\belowcaptionskip=\skip54
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
 \bibindent=\dimen102
-)
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\sauerj\collect.sty
+) (collect.sty
 Package: collect 2004/09/12 v0.9 collect the contents of an environment
 \CE@tmp@out=\write3
 )
@@ -109,520 +93,76 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-\botmargin=\skip55
+\botmargin=\skip52
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
-)
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
+) (booktabs.sty
+Package: booktabs 1995/11/06 v1.00 publication quality tables
 \heavyrulewidth=\dimen113
 \lightrulewidth=\dimen114
 \cmidrulewidth=\dimen115
 \belowrulesep=\dimen116
-\belowbottomsep=\dimen117
-\aboverulesep=\dimen118
-\abovetopsep=\dimen119
-\cmidrulesep=\dimen120
-\cmidrulekern=\dimen121
-\defaultaddspace=\dimen122
-\@cmidla=\count92
-\@cmidlb=\count93
-\@aboverulesep=\dimen123
-\@belowrulesep=\dimen124
-\@thisruleclass=\count94
-\@lastruleclass=\count95
-\@thisrulewidth=\dimen125
+\aboverulesep=\dimen117
+\cmidrulesep=\dimen118
+\cmidrulekern=\dimen119
+\defaultaddspace=\dimen120
+\rulesflag=\count92
+\@cmidrulewidth=\dimen121
+\@cmidla=\count93
+\@cmidlb=\count94
 )
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count96
+(listings.sty
+Package: listings 2002/04/01 1.0 (Carsten Heinz)
+\lst@mode=\count95
 \lst@gtempboxa=\box26
 \lst@token=\toks16
-\lst@length=\count97
-\lst@currlwidth=\dimen126
-\lst@column=\count98
-\lst@pos=\count99
-\lst@lostspace=\dimen127
-\lst@width=\dimen128
-\lst@newlines=\count100
-\lst@lineno=\count101
-\lst@maxwidth=\dimen129
+\lst@length=\count96
+\lst@currlwidth=\dimen122
+\lst@column=\count97
+\lst@pos=\count98
+\lst@lostspace=\dimen123
+\lst@width=\dimen124
+\lst@newlines=\count99
+\lst@lineno=\count100
+\c@lstlisting=\count101
+\lst@maxwidth=\dimen125
 
 (C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count102
-\lst@skipnumbers=\count103
-\lst@framebox=\box27
-)
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
-))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-\@input{definitions.aux}
-\openout2 = `definitions.aux'.
 
-(definitions.tex) (Thesis-Hengcheng.aux (abstract.aux) (abbreviations.aux)
-(intro.aux) (literature.aux) (methodology.aux) (results.aux) (conclusion.aux)
-(appendix1.aux))
-\openout1 = `Thesis-Hengcheng.aux'.
+***
+*** This file requires `listings.sty' version 1.6.
+*** You have a serious problem, so I'm exiting ...
+***
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
 
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen130
-\scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen131
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks18
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
+ ) ) )
+(\end occurred inside a group at level 1)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=412.56497pt
-* \textheight=629.33034pt
-* \oddsidemargin=41.54103pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-1.1381pt
-* \headheight=25.0pt
-* \headsep=20.0pt
-* \topskip=11.0pt
-* \footskip=42.67912pt
-* \marginparwidth=71.13188pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\@tmpb@x=\box29
-\@titlewidth=\dimen132
-\c@lstlisting=\count110
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 42.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-<crest.pdf, id=1, 147.27522pt x 154.20912pt>
-File: crest.pdf Graphic file (type pdf)
- <use crest.pdf>
-Package pdftex.def Info: crest.pdf used on input line 42.
-(pdftex.def)             Requested size: 147.27486pt x 154.20872pt.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 42.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14> on input line 42.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.79996> on input line 42.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
-
-! Undefined control sequence.
-\maketitle ...h 10pt\\ Topic ID: & \ThesisTopicID 
-                                                  \end {tabular}\par \end {c...
-l.42 \maketitle
-               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1
-
-
-
-
-
-{C:/Users/z5130844/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./crest.
-pdf>]
-\openout2 = `abstract.aux'.
-
- (abstract.tex) [2
-
-
-]
-\openout2 = `abbreviations.aux'.
-
- (abbreviations.tex)
-
-Package Fancyhdr Warning: \headheight is too small (25.0pt): 
- Make it at least 25.24913pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3
-
-
-
-] (Thesis-Hengcheng.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
- [4
-
-
-])
-\tf@toc=\write5
-\openout5 = `Thesis-Hengcheng.toc'.
-
- [5] (Thesis-Hengcheng.lof)
-\tf@lof=\write6
-\openout6 = `Thesis-Hengcheng.lof'.
-
- [6
-
-]
-\openout2 = `intro.aux'.
-
- (intro.tex
-Chapter 1.
-[1
-
-
-
-
-]) [2]
-\openout2 = `literature.aux'.
-
- (literature.tex
-Chapter 2.
-<PGB.jpg, id=73, 300.3722pt x 213.79875pt>
-File: PGB.jpg Graphic file (type jpg)
- <use PGB.jpg>
-Package pdftex.def Info: PGB.jpg used on input line 22.
-(pdftex.def)             Requested size: 300.37144pt x 213.79822pt.
- [3
-
-
-
-] [4 <./PGB.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
- [5] [6] [7] [8]
-<TSA.png, id=99, 325.215pt x 171.64125pt>
-File: TSA.png Graphic file (type png)
- <use TSA.png>
-Package pdftex.def Info: TSA.png used on input line 123.
-(pdftex.def)             Requested size: 325.2142pt x 171.64081pt.
- [9 <./TSA.png>]
-<demodulation.png, id=105, 431.36156pt x 300.3722pt>
-File: demodulation.png Graphic file (type png)
- <use demodulation.png>
-Package pdftex.def Info: demodulation.png used on input line 139.
-(pdftex.def)             Requested size: 431.3605pt x 300.37144pt.
-
-Overfull \hbox (18.79553pt too wide) in paragraph at lines 139--140
- [][] 
- []
-
-[10 <./demodulation.png>] [11] [12]) [13]
-\openout2 = `methodology.aux'.
-
- (methodology.tex
-Chapter 3.
-[14
-
-
-
-] <rig.png, id=123, 419.31656pt x 148.30406pt>
-File: rig.png Graphic file (type png)
- <use rig.png>
-Package pdftex.def Info: rig.png used on input line 16.
-(pdftex.def)             Requested size: 419.31552pt x 148.30368pt.
-
-Overfull \hbox (6.75055pt too wide) in paragraph at lines 16--17
- [][] 
- []
-
-<gearbox.png, id=124, 399.74344pt x 234.8775pt>
-File: gearbox.png Graphic file (type png)
- <use gearbox.png>
-Package pdftex.def Info: gearbox.png used on input line 29.
-(pdftex.def)             Requested size: 279.81848pt x 164.41312pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./rig.png>] <control.png, id=129, 435.12563pt x 247.67531pt>
-File: control.png Graphic file (type png)
-
-<use control.png>
-Package pdftex.def Info: control.png used on input line 40.
-(pdftex.def)             Requested size: 304.58586pt x 173.37152pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./gearbox.png> <./control.png>] <NI.png, id=135, 758.835pt x 537.50812pt>
-File: NI.png Graphic file (type png)
-
-<use NI.png>
-Package pdftex.def Info: NI.png used on input line 53.
-(pdftex.def)             Requested size: 303.52863pt x 214.99944pt.
- [17 <./NI.png>] <speedup.png, id=140, 350.05782pt x 272.51813pt>
-File: speedup.png Graphic file (type png)
-
-<use speedup.png>
-Package pdftex.def Info: speedup.png used on input line 70.
-(pdftex.def)             Requested size: 350.05695pt x 272.51746pt.
- [18 <./speedup.png>]
-<test2.png, id=145, 421.575pt x 316.18124pt>
-File: test2.png Graphic file (type png)
- <use test2.png>
-Package pdftex.def Info: test2.png used on input line 83.
-(pdftex.def)             Requested size: 358.34042pt x 268.75533pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19 <./test2.png (PNG copy)>] <test3.png, id=150, 421.575pt x 316.18124pt>
-File: test3.png Graphic file (type png)
-
-<use test3.png>
-Package pdftex.def Info: test3.png used on input line 94.
-(pdftex.def)             Requested size: 358.34042pt x 268.75533pt.
- [20 <./test3.png (PNG copy)>]
-<wave.png, id=154, 421.575pt x 316.18124pt>
-File: wave.png Graphic file (type png)
- <use wave.png>
-Package pdftex.def Info: wave.png used on input line 118.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
-
-<last10.png, id=155, 421.575pt x 316.18124pt>
-File: last10.png Graphic file (type png)
- <use last10.png>
-Package pdftex.def Info: last10.png used on input line 119.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
-
-<wavelift.png, id=156, 421.575pt x 316.18124pt>
-File: wavelift.png Graphic file (type png)
- <use wavelift.png>
-Package pdftex.def Info: wavelift.png used on input line 128.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
-
-<last10lift.png, id=157, 421.575pt x 316.18124pt>
-File: last10lift.png Graphic file (type png)
- <use last10lift.png>
-Package pdftex.def Info: last10lift.png used on input line 129.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21 <./wave.png (PNG copy)> <./last10.png (PNG copy)>]) [22 <./wavelift.png (PN
-G copy)> <./last10lift.png (PNG copy)>]
-\openout2 = `results.aux'.
-
- (results.tex
-Chapter 4.
-<cepstrum.png, id=164, 421.575pt x 316.18124pt>
-File: cepstrum.png Graphic file (type png)
- <use cepstrum.png>
-Package pdftex.def Info: cepstrum.png used on input line 11.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
-
-<lifteredCepstrum.png, id=165, 421.575pt x 316.18124pt>
-File: lifteredCepstrum.png Graphic file (type png)
-
-<use lifteredCepstrum.png>
-Package pdftex.def Info: lifteredCepstrum.png used on input line 12.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23
-
-
-
-] <composant.png, id=169, 810.02625pt x 282.30469pt>
-File: composant.png Graphic file (type png)
- <use composant.png>
-Package pdftex.def Info: composant.png used on input line 24.
-(pdftex.def)             Requested size: 405.01213pt x 141.152pt.
-
-[24 <./cepstrum.png (PNG copy)> <./lifteredCepstrum.png (PNG copy)> <./composan
-t.png (PNG copy)>] <hilbert.png, id=173, 421.575pt x 316.18124pt>
-File: hilbert.png Graphic file (type png)
-
-<use hilbert.png>
-Package pdftex.def Info: hilbert.png used on input line 59.
-(pdftex.def)             Requested size: 337.26045pt x 252.94533pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25] <5t15.png, id=178, 421.575pt x 316.18124pt>
-File: 5t15.png Graphic file (type png)
- <use 5t15.png>
-Package pdftex.def Info: 5t15.png used on input line 71.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
-
-<5t15lift.png, id=179, 421.575pt x 316.18124pt>
-File: 5t15lift.png Graphic file (type png)
- <use 5t15lift.png>
-Package pdftex.def Info: 5t15lift.png used on input line 72.
-(pdftex.def)             Requested size: 202.3537pt x 151.76526pt.
- [26 <./hilbert.png (PNG copy)> <./5t15.png (PNG copy)> <./5t15lift.png (PNG co
-py)>])
-[27]
-\openout2 = `conclusion.aux'.
-
- (conclusion.tex
-Chapter 5.
-) [28
-
-
-
-]
-No file Thesis-Hengcheng.bbl.
-
-Underfull \hbox (badness 5878) in paragraph at lines 68--69
-[]\OT1/cmr/m/n/10.95 Robert Bond Randall,\OT1/cmr/m/it/10.95 Vibration-based Co
-n-di-tion Mon-i-tor-ing - In-dus-trial,
- []
-
-[29
-
-
-
-] [30]
-\openout2 = `appendix1.aux'.
-
- (appendix1.tex
-(C:\Users\z5130844\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-[31
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32])
-[33] (Thesis-Hengcheng.aux (abstract.aux) (abbreviations.aux) (intro.aux)
-(literature.aux) (methodology.aux) (results.aux) (conclusion.aux)
-(appendix1.aux)) ) 
+### semi simple group (level 1) entered at line 1820 (\begingroup)
+### bottom level
+(\end occurred when \ifx on line 1820 was incomplete)
+(\end occurred when \ifx on line 1820 was incomplete)
+(\end occurred when \ifx on line 1820 was incomplete)
+(\end occurred when \ifx on line 1820 was incomplete)
+(\end occurred when \ifx on line 1820 was incomplete)
+(\end occurred when \ifx on line 1820 was incomplete) 
 Here is how much of TeX's memory you used:
- 5024 strings out of 493334
- 68692 string characters out of 3139242
- 193055 words of memory out of 3000000
- 8404 multiletter control sequences out of 15000+200000
- 16856 words of font info for 43 fonts, out of 3000000 for 9000
+ 2233 strings out of 493334
+ 29311 string characters out of 3139243
+ 98988 words of memory out of 3000000
+ 5788 multiletter control sequences out of 15000+200000
+ 3940 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,14n,45p,1118b,2152s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Thesis-Hengcheng.pdf (39 pages, 2752080 bytes).
+ 30i,1n,45p,253b,61s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+No pages of output.
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
+ 0 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

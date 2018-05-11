@@ -72,7 +72,7 @@
 \def\declarationname{Originality Statement}
 
 %%%%%%%%%%%%%%%%%%%%%
-%   Class options   %
+%   Class options   % 
 %%%%%%%%%%%%%%%%%%%%%
 
 % New defns for ugrad and hdr - andrewo
@@ -98,7 +98,7 @@
 \DeclareOption{final}{\@thdraftfalse}
 %\DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 %default values go here - overridden below
-\ExecuteOptions{doublespacing,final}
+\ExecuteOptions{doublesspacing,final}
 \ProcessOptions
 
 \ifx\sidefl@g\empty
